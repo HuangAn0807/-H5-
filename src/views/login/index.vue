@@ -18,7 +18,6 @@ const onSubmit =async () => {
     userStore.setUser(res.data.data.userInfo)
     router.push('/home')
   }
-  
 }
 </script>
 <template>
